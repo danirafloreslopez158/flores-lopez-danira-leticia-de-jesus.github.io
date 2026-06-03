@@ -1,1 +1,243 @@
 
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Marquesinas</title>
+    <link rel="icon" href="codigo-html.png">
+
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background:#a6bcc9;
+        }
+
+        .encabezado{
+            background:#3d1534;
+            color:#f6e0b6;
+            text-align:center;
+            padding:20px;
+        }
+
+        .contenedor{
+            width:90%;
+            margin:auto;
+            padding:20px;
+        }
+
+        .seccion{
+            background:#fff4eb;
+            margin-bottom:20px;
+            padding:15px;
+            border-radius:10px;
+            box-shadow:0 0 10px gray;
+        }
+
+        .titulo{
+            color:#3e4b8e;
+            border-bottom:3px solid #3e4b8e;
+            padding-bottom:5px;
+            text-align:center;
+        }
+
+        .marquesina{
+            background:#f6e0b6;
+            padding:10px;
+            border:2px solid #f6e0b6;
+            border-radius:8px;
+            margin-top:10px;
+            color:#3d1534;
+        }
+
+        .pie{
+            background:#3d1534;
+            color:#f6e0b6;
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
+        }
+
+        img{
+            border-radius:10px;
+            margin:5px;
+            border:3px solid #3d1534;
+        }
+
+        .animal{
+            display:inline-block;
+            text-align:center;
+            margin:20px;
+            vertical-align:top;
+        }
+
+        .animal h3{
+            margin-bottom:10px;
+            color:#3e4b8e;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="encabezado">
+        <h1>Ejemplos de Marquesinas en HTML</h1>
+        <h3>DANIRA LETICIA DE JESÚS FLORES LÓPEZ</h3>
+    </div>
+
+    <div class="contenedor">
+
+        <!-- Marquesina Izquierda-->
+        <div class="seccion">
+            <h2 class="titulo">1. Marquesina hacia la izquierda</h2>
+
+            <div class="marquesina">
+                <marquee>
+                    Bienvenidos al submódulo de Implementa
+                </marquee>
+            </div>
+        </div>
+
+        <!-- Marquesina Derecha -->
+        <div class="seccion">
+            <h2 class="titulo">2. Marquesina hacia la derecha</h2>
+
+            <div class="marquesina">
+                <marquee direction="right">
+                    Este texto se mueve hacia la derecha.
+                </marquee>
+            </div>
+        </div>
+
+        <!-- Marquesina Vertical -->
+        <div class="seccion">
+            <h2 class="titulo">3. Marquesina Vertical Arriba</h2>
+
+            <div class="marquesina">
+                <marquee direction="up" height="120">
+                    Texto<br>
+                    Texto<br>
+                    Este texto se mueve hacia arriba
+                </marquee>
+            </div>
+        </div>
+
+        <!-- Marquesina Vertical -->
+        <div class="seccion">
+            <h2 class="titulo">4. Marquesina Vertical Abajo</h2>
+
+            <div class="marquesina">
+                <marquee direction="down" height="120">
+                    Texto<br>
+                    Texto<br>
+                    Este texto se mueve hacia abajo
+                </marquee>
+            </div>
+        </div>
+
+        <!-- Marquesina con Rebote -->
+        <div class="seccion">
+            <h2 class="titulo">5. Marquesina con Rebote</h2>
+
+            <div class="marquesina">
+                <marquee behavior="alternate">
+                    Texto que rebota de un lado al otro
+                </marquee>
+            </div>
+        </div>
+
+        
+        <!-- Marquesina Rápida -->
+        <div class="seccion">
+            <h2 class="titulo">6. Marquesina Rápida</h2>
+
+            <div class="marquesina">
+                <marquee scrollamount="15">
+                    Texto rápido
+                </marquee>
+            </div>
+        </div>
+
+        <!-- Marquesina Lenta -->
+        <div class="seccion">
+            <h2 class="titulo">7. Marquesina Lenta</h2>
+
+            <div class="marquesina">
+                <marquee scrollamount="3">
+                    Texto lento
+                </marquee>
+            </div>
+        </div>
+
+        <!-- Marquesina con Imágenes -->
+        <div class="seccion">
+            <h2 class="titulo">8. Marquesina con Imágenes</h2>
+
+            <div class="marquesina">
+
+                <marquee direction="up" scrollamount="8">
+
+                    <span class="animal">
+                        <h3>Puma</h3>
+                        <img src="puma.jpg" width="120" height="120" alt="puma">
+                    </span>
+
+                    <span class="animal">
+                        <h3>Pantera</h3>
+                        <img src="pantera.jpg" width="120" height="120" alt="pantera">
+                    </span>
+
+                    <span class="animal">
+                        <h3>Conejo</h3>
+                        <img src="conejo.jpg" width="120" height="120" alt="conejo">
+                    </span>
+
+                </marquee>
+
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="contenedor">
+
+        <!-- Marquesina link-->
+        <div class="seccion">
+            <h2 class="titulo"> 9. marquesina con link</h2>
+
+            <div class="marquesina">
+                <marquee direction="up"; scrollamount="4">
+                <a href="https://www.youtube.com/watch?v=NX8InjXV2OU" target="_blank" rel="noopener noreferrer">https://youtu.be/GpQSUjNsNm0?si=ttY6LsVI1MV6pZ9f</a><br>
+                <a href="https://www.youtube.com/watch?v=CSvFpBOe8eY&list=WL&index=4" target="_blank" rel="noopener noreferrer">https://youtu.be/GpQSUjNsNm0?si=ttY6LsVI1MV6pZ9f</a><br>
+                <a href="https://www.youtube.com/watch?v=xvVLWSsKjkI&list=WL&index=6" target="_blank" rel="noopener noreferrer">https://youtu.be/GpQSUjNsNm0?si=ttY6LsVI1MV6pZ9f</a><br>
+                </marquee>
+            </div>
+        </div>
+
+               <!-- Marquesina video -->
+        <div class="seccion">
+            <h2 class="titulo">10. Marquesina con video</h2>
+
+            <div class="marquesina">
+                <marquee onmouseover="this.stop(4)">
+                    <video width="640" height="360" controls>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NunfNnd-T9A?si=rhwTax7Igph3vO_P"
+                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                     gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe><br></br>
+    Tu  navegador no soporta la etiqueta video    
+                
+
+                    </video>
+                </marquee>
+            </div>
+        </div>
+
+        
+    <div class="pie">
+        <h3>Práctica de HTML, CSS y Marquesinas</h3>
+    </div>
+
+
+</html>
