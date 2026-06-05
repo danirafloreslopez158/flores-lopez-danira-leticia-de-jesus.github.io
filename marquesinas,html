@@ -216,20 +216,16 @@
             </div>
         </div>
 
+
                <!-- Marquesina video -->
         <div class="seccion">
             <h2 class="titulo">10. Marquesina con video</h2>
 
             <div class="marquesina">
                 <marquee onmouseover="this.stop(4)">
-                    <video width="640" height="360" controls>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NunfNnd-T9A?si=rhwTax7Igph3vO_P"
-                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-                     gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                    </iframe><br></br>
-    Tu  navegador no soporta la etiqueta video    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E9l11PsuHCw?si=ZZ9-1ku5MPQHPzdn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <!-----Tu  navegador no soporta la etiqueta video >   
                 
-
                     </video>
                 </marquee>
             </div>
